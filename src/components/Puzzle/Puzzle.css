@@ -1,4 +1,9 @@
 .crossWordInput {
   width: 100px;
   height: 100px;
+  font-size: 100px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

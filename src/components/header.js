@@ -8,14 +8,16 @@ const Header = ({ siteTitle }) => (
       background: 'white',
       marginBottom: '1.45rem',
       boxShadow: 'rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 0px 1px',
-      textAlign: 'center',
+      textAlign: 'left',
+      fontSize: '18px',
+      fontWeight: 'bold',
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1rem 1rem',
       }}
     >
       <h1 style={{ margin: 0 }}>

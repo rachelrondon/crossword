@@ -14,45 +14,43 @@ class Puzzle extends Component {
     return(
       <div className="crossWordBox">
         <div className="crossWordRow">
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
         </div>
         <div className="crossWordRow">
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
         </div>
         <div className="crossWordRow">
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
         </div>
         <div className="crossWordRow">
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
         </div>
         <div className="crossWordRow">
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
-          <input className="crossWordInput" type="text" name="name" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
+          <input className="crossWordInput uppercase" type="text" name="name" maxLength="1" />
         </div>
       </div>
     )
   }
-
-
 }
 
 export default Puzzle;
