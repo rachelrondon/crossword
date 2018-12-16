@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link } from 'gatsby'
-
-import Layout from '../components/layout'
-import Image from '../components/image'
-import SEO from '../components/seo'
+import React from 'react';
+import Layout from '../components/layout';
+import Puzzle from '../components/Puzzle/puzzle';
 
 const IndexPage = () => (
   <Layout>
+    <div className="crossWordLayout">
+        <Puzzle />
+    </div>
   </Layout>
 )
 
